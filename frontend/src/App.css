@@ -695,13 +695,14 @@ footer div ul a span {
 
 /**************************HERO MINI COMPONENT*********************************/
 .hero {
-  min-width: 1500px;
-  max-width: 1500px;
-  margin: 0 auto;
-  display: flex;
-  gap: 30px;
-  min-height: 800px;
+  width: 1500px !important;
+  max-width: 1500px !important;
+  margin: 0 auto !important;
+  display: flex !important;
+  gap: 30px !important;
+  min-height: 800px !important;
 }
+
 .hero .banner {
   flex: 1;
   display: flex;
