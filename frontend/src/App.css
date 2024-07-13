@@ -434,7 +434,7 @@ footer div ul a span {
 @media (max-width: 1140px) {
   .navbar {
     flex-wrap: wrap;
-    height: 130px;
+    height: 80px;
     overflow-y: hidden;
     transition: 0.3s;
   }
