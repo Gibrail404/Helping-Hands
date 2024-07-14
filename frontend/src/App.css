@@ -731,7 +731,7 @@ footer div ul a span {
 }
 @media (max-width: 1520px) {
   .hero {
-    min-width: 100%;
+    min-width: 80%;
     padding: 40px 20px;
   }
 }
