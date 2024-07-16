@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const volunteerSchema = new mongoose.Schema({
+const volunteerScheam = new mongoose.Schema({
   name: String,
   email: String,
   amount: {
@@ -14,4 +14,4 @@ const volunteerSchema = new mongoose.Schema({
   paymentStatus: String,
 });
 
-export const Volunteer = mongoose.model("Volunteer", volunteerSchema);
+export const Volunteer = mongoose.model("Volunteer", volunteerScheam);

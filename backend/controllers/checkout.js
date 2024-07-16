@@ -32,7 +32,7 @@ const createInvoice = async (amount) => {
       currency: "USD",
       order_id: crypto.randomBytes(12).toString("hex"),
       url_return: "https://helping-hands-jade.vercel.app/donate",
-      url_success: "https://helping-hands-jade.vercel.app",
+      url_success: "https://helping-hands-jade.vercel.app/",
       lifetime: 300,
     };
 
