@@ -39,7 +39,7 @@
   gap: 30px;
 }
 .about .hero .banner img {
-  height: 80%;
+  height: 60%;
 }
 .about .hero .banner h1 {
   font-size: 2.4rem;
@@ -252,9 +252,12 @@
 @media (max-width: 660px) {
   .contact .container {
     width: 100%;
+    
   }
-  .contact .banner form div {
+  .contact .banner form div, textarea, button {
     flex-direction: column;
+    max-height: 70vw;
+    max-width: 88%;
   }
   .contact .container {
     gap: 30px;
@@ -530,14 +533,14 @@ footer div ul a span {
 /*********************************MEMBERS MINI COMPONENT********************************************/
 .members {
   display: flex;
-  min-height: 100vh;
+  min-height: 90vh;
   justify-content: center;
   align-items: center;
   padding: 50px 20px;
 }
 .members .container {
-  max-width: 1500px;
-  min-width: 1500px;
+  max-width: 1400px;
+  min-width: 1400px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -633,8 +636,8 @@ footer div ul a span {
   flex-direction: column;
   align-items: center;
   gap: 30px;
-  max-width: 1500px;
-  min-width: 1500px;
+  max-width: 1400px;
+  min-width: 1300px;
   margin: 0 auto;
   padding: 60px 0;
 }
@@ -695,8 +698,8 @@ footer div ul a span {
 
 /**************************HERO MINI COMPONENT*********************************/
 .hero {
-  min-width: 1500px;
-  max-width: 1500px;
+  min-width: 1350px;
+  max-width: 1300px;
   margin: 0 auto;
   display: flex;
   gap: 30px;

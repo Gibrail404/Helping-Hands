@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FaBitcoin, FaYoutube } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa6";
 import { FaGithubSquare } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -35,9 +35,6 @@ const Navbar = () => {
           </ul>
 
           <ul>
-            <li>
-              <FaBitcoin />
-            </li>
             <li>
               <FaYoutube />
             </li>
