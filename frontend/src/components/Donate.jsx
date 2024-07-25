@@ -15,7 +15,7 @@ const Donate = () => {
       setDisableBtn(true);
       await axios
         .post(
-          "http://localhost:4000/api/v1/checkout",
+          "https://helping-hands-backend.onrender.com/api/v1/checkout",
           {
             name,
             email,
